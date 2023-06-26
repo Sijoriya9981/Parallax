@@ -1,0 +1,73 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: antiquewhite;
+
+
+}
+
+.pigml1
+{
+    background-image: url(1i.jpg);
+    min-height: 100%;
+}
+.pigml2{
+    background-image: url(2i.jpg);
+    min-height: 400px;
+}
+.pigml3{
+    background-image: url(3i.jpg);
+    min-height: 400px;
+}
+.pigml4{
+    background-image: url(4i.jpg);
+    min-height: 400px;
+}
+.pigml5{
+    background-image: url(5i.jpg);
+    min-height: 400px;
+}
+.pigml1,.pigml2,.pigml3,.pigml4,.pigml5{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: black;
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textbg{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    padding: 15px 5px;
+    border-radius: 12px;
+
+
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section_light{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0 0 0);
+    font-size: 15px;
+}
+.section_dark{
+    background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
